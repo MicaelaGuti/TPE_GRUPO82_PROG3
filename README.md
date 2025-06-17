@@ -1,4 +1,4 @@
-#Grupo 82 - Gutierrez Micaela Agustina y Pedersen Angeles#
+# Grupo 82 - Gutierrez Micaela Agustina y Pedersen Angeles #
 
 
 
@@ -28,5 +28,5 @@ Cantidad de máquinas utilizadas en la solución. Se busca **minimizar** este n�
 
 #### Calidad de la solución
 > La calidad de una solución se mide como la **cantidad promedio de piezas producidas por cada máquina puesta en funcionamiento**.
-> Fórmula: calidad = piezas_producidas / puestas_en_funcionamiento
+> Fórmula: calidad = piezas_producidas / puestas_en_funcionamiento. 
 > Esta métrica permite evaluar cuán eficiente es una solución, priorizando aquellas que logran producir muchas piezas con la menor cantidad de máquinas posible.
