@@ -11,7 +11,7 @@ public class Soluciones {
     private LinkedList<Maquina> maquinas;
     private int piezasObjetivo; 
     private ArrayList<Maquina> resultadoFinal; 
-    private int estadosGenerados = 0;
+    private int estadosGeneradosBack = 0;
     private int puestasEnFuncionamiento = 0;
     private int piezasProducidasFinal = 0;
     private int estadosGeneradosGreedy=0; 
@@ -35,8 +35,8 @@ public class Soluciones {
         return piezasObjetivo; 
     }
     
-    public int getEstadosGenerados() {
-        return estadosGenerados;
+    public int getEstadosGeneradosBack() {
+        return estadosGeneradosBack;
     }
 
     public int getPuestasEnFuncionamiento() {
@@ -93,7 +93,7 @@ public class Soluciones {
     }
 
     private void solucionBackTracking(int piezasProducidas, ArrayList<Maquina> caminoActual) {
-        estadosGenerados++;
+        estadosGeneradosBack++;
         if (piezasProducidas == piezasObjetivo) {
             if (caminoActual.size() < resultadoFinal.size() || resultadoFinal.isEmpty()) {
                 resultadoFinal.clear();

@@ -30,7 +30,7 @@ public class Main {
             
             System.out.println("- Piezas producidas: " + soluciones.getPiezasProducidasFinal());
             System.out.println("- Puestas en funcionamiento: " + soluciones.getPuestasEnFuncionamiento());
-            System.out.println("- Costo de la solucion (estados generados): " + soluciones.getEstadosGenerados());
+            System.out.println("- Costo de la solucion (estados generados): " + soluciones.getEstadosGeneradosBack());
             System.out.println("- Calidad de la solucion: " + String.format("%.2f", soluciones.calidadBacktracking()) + " piezas por puestas en funcionamiento");
         }   
 
