@@ -1,4 +1,4 @@
-#<u>Grupo 82 - Gutierrez Micaela Agustina y Pedersen Angeles</u>#
+#Grupo 82 - Gutierrez Micaela Agustina y Pedersen Angeles#
 
 
 
