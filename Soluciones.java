@@ -104,9 +104,12 @@ public class Soluciones {
                 int resto = piezasObjetivo - piezasProducidas;
                 if (m.getCantPiezas() <= resto) {
                     caminoActual.add(m);
-                    piezasProducidas += m.getCantPiezas();
-                    solucionBackTracking(piezasProducidas, caminoActual);
-                    piezasProducidas -= m.getCantPiezas();
+                    if(caminoActual.size() < resultadoFinal.size() || resultadoFinal.isEmpty()){
+                        piezasProducidas += m.getCantPiezas();
+                        solucionBackTracking(piezasProducidas, caminoActual);
+                        piezasProducidas -= m.getCantPiezas();
+                    }
+                    
                     caminoActual.remove(caminoActual.size() - 1);// Elimina el ultimo
 
                 }
